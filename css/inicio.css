@@ -1,0 +1,62 @@
+body{
+    background: #F9FAFC;
+    align-items: center;
+    align-content: center;
+}
+h1{
+    margin: 0%;
+}
+#ingreso{
+    margin-top: 20rem;
+    margin-left: 45rem;
+    background: white;
+    padding-bottom: 50px;
+    width: 40rem;
+    height: 20rem;
+    box-shadow: 13px 9px 7px #ccc;
+    padding-bottom: 10px;
+    display: inline-grid;
+    align-items: flex-start;
+}
+#ingreso-title{
+    border-style: double;
+    border: black;
+    background: blue;
+}
+#icon-key{
+    align-items: center;
+    margin-left: 3rem;
+    background-color: red;
+}
+#body{
+    display: inline-flex;
+}
+#datos{
+    display: inline-grid;
+    align-content: center;
+    padding: 0rem 3rem;
+    border-color: blue;
+    border-style: outset;
+}
+input{
+    font-size: x-large;
+}
+#end{
+    display: flex;
+    justify-content: space-around;
+}
+.btn-primary {
+    background-color:gray;
+    color: white;
+}
+
+.btn-primary:hover {
+    background-color: lightgray;
+    color: black;
+}
+.btn-none {
+    cursor: pointer;
+    padding: 1.5rem 2rem;
+    border-color: black;
+    font-family: 'Courier New';
+}
