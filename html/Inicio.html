@@ -17,16 +17,20 @@
                 <path d="M4 8a1 1 0 1 1-2 0 1 1 0 0 1 2 0z"/>
             </svg>
             <div id="datos">
-                <input type="text" name="user" id="user" placeholder="Enter your username...."><br>
-                <input type="text" name="password" id="password" placeholder="Enter your password....">
+                <a id="use">User:</a>
+                <input type="text" name="user" id="user" placeholder="Enter your username..."><br>
+                <a id="password">Password:</a>
+                <input type="password" name="pass" id="pass" placeholder="Enter your password..." >
             </div>
         </div>
-        <div id="end">
-            <a>USER:</a>
-            <button class="btn-none btn-primary">LOG ON</button>
-            <button class="btn-none btn-primary">CLEAR</button>
-            <button class="btn-none btn-primary">EXIT</button>
-        </div>
+        <form name="form" onsubmit="return Validar(user,pwd)" >
+            <div id="end">
+                <button class="btn-none btn-primary Login">LOG ON</button>
+                <button class="btn-none btn-primary">CLEAR</button>
+                <button class="btn-none btn-primary">EXIT</button>
+            </div>
+        </form>
     </div>
+    <script src="/Java/Inicio.js"></script>
 </body>
 </html>
